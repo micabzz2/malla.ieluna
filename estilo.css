@@ -1,0 +1,68 @@
+/* Fuente y fondo base */
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  margin: 40px;
+  background-color: #f0f2f5;
+  color: #333;
+}
+
+/* Título principal */
+h1 {
+  text-align: center;
+  font-size: 2.5rem;
+  color: #003366;
+  margin-bottom: 40px;
+}
+
+/* Subtítulo de cada semestre */
+h2 {
+  color: #005691;
+  font-size: 1.6rem;
+  margin-bottom: 10px;
+}
+
+/* Contenedor de cada semestre */
+.semestre {
+  background-color: #ffffff;
+  border-left: 6px solid #0078d7;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  margin-bottom: 25px;
+  border-radius: 6px;
+  transition: transform 0.2s ease;
+}
+
+.semestre:hover {
+  transform: scale(1.01);
+}
+
+/* Lista de materias */
+ul {
+  list-style-type: square;
+  padding-left: 20px;
+  margin: 0;
+}
+
+li {
+  padding: 5px 0;
+  font-size: 1rem;
+}
+
+/* Adaptación para móviles */
+@media (max-width: 600px) {
+  body {
+    margin: 20px;
+  }
+
+  h1 {
+    font-size: 2rem;
+  }
+
+  h2 {
+    font-size: 1.3rem;
+  }
+
+  .semestre {
+    padding: 15px;
+  }
+}
